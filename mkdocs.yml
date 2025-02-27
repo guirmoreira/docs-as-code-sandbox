@@ -16,4 +16,5 @@ nav:
   - API:
       - Visão Geral: api.md
       - Endpoints: endpoints.md
+  - Arquitetura: architecture.md
   - Sobre: about.md

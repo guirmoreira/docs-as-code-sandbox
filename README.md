@@ -11,25 +11,28 @@ Uma API para gerenciar e transmitir vídeos, construída com **Node.js**, **Type
 Antes de começar, você precisa ter instalado:
 
 - [Node.js](https://nodejs.org/)
+- [Python/PIP](https://python.org/)
 - [Docker](https://www.docker.com/) (opcional, mas recomendado)
 - [Git](https://git-scm.com/)
 
 ### 2️⃣ Clonar o Repositório  
 
 ```bash
-git clone https://github.com/seu-usuario/video-streaming-api.git
-cd video-streaming-api
+git clone https://github.com/guirmoreira/docs-as-code-sandbox.git
+cd docs-as-code-sandbox
 ```
 
 ### 3️⃣ Instalar as Dependências  
 
 ```bash
 npm install
+pip install mkdocs-material
 ```
 
 ### 4️⃣ Rodar o Projeto Localmente  
 
 ```bash
+mkdocs serve -a 0.0.0.0:8000  # documentação
 npm run dev
 ```
 
