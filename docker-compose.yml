@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+      - "8000:8000"
+    environment:
+      - NODE_ENV=development
+      - THEME=material
+      - palette.scheme=default
+      - palette.primary=blue
+      - palette.accent=indigo
+      - features.navigation.instant
+      - features.navigation.tracking
+      - features.navigation.expand

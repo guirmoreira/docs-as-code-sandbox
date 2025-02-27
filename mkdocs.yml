@@ -1,0 +1,19 @@
+site_name: Video Streaming API
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: blue
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - Instalação: installation.md
+  - API:
+      - Visão Geral: api.md
+      - Endpoints: endpoints.md
+  - Sobre: about.md
