@@ -16,7 +16,7 @@ const swaggerOptions = {
       },
     ],
   },
-  apis: ["./src/presentation/routes/*.ts"], // Caminho onde estão as rotas
+  apis: ["src/presentation/routes/*.ts"], // Caminho onde estão as rotas
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);

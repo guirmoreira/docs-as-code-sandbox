@@ -25,7 +25,7 @@ COPY . .
 # Criar um ambiente virtual para instalar MkDocs
 RUN python3 -m venv /app/venv && \
     . /app/venv/bin/activate && \
-    pip install mkdocs-material
+    pip install mkdocs-material mkdocs-mermaid2-plugin
 
 # Adicionar ambiente virtual ao PATH
 ENV PATH="/app/venv/bin:$PATH"

@@ -26,13 +26,14 @@ cd docs-as-code-sandbox
 
 ```bash
 npm install
-pip install mkdocs-material
+pip install mkdocs-material mkdocs-mermaid2-plugin  # para a documentação
+
 ```
 
 ### 4️⃣ Rodar o Projeto Localmente  
 
 ```bash
-mkdocs serve -a 0.0.0.0:8000  # documentação
+mkdocs serve  # documentação
 npm run dev
 ```
 
